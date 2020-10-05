@@ -4,7 +4,7 @@ This Reposity contains only Part 2 of the project.
 
 1. udm_leg contains the details about the robot Quad (four leg).
 2. moveit2 is generated with moveit.
-3. urdf_project_control consist of node to control the robot direct or inverse.
+3. urdf_project_control consist of node to control the robot.
 
 ## Installation
 The package need to be install in your catkin workspace.
