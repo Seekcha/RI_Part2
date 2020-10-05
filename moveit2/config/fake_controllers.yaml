@@ -1,0 +1,46 @@
+controller_list:
+  - name: fake_front_left_leg_controller
+    joints:
+      - joint_left_front_1
+      - joint_left_front_2
+      - joint_left_front_3
+      - joint_left_front_4
+  - name: fake_end_left_front_leg_controller
+    joints:
+      - joint_left_front_4
+  - name: fake_rear_left_leg_controller
+    joints:
+      - joint_left_rear_1
+      - joint_left_rear_2
+      - joint_left_rear_3
+      - joint_left_rear_4
+  - name: fake_end_left_rear_leg_controller
+    joints:
+      - joint_left_rear_4
+  - name: fake_front_right_leg_controller
+    joints:
+      - joint_right_front_1
+      - joint_right_front_2
+      - joint_right_front_3
+      - joint_right_front_4
+  - name: fake_end_front_right_leg_controller
+    joints:
+      - joint_right_front_4
+  - name: fake_rear_right_leg_controller
+    joints:
+      - joint_right_rear_1
+      - joint_right_rear_2
+      - joint_right_rear_3
+      - joint_right_rear_4
+  - name: fake_end_right_rear_leg_controller
+    joints:
+      - joint_right_rear_4
+initial:  # Define initial robot poses.
+  - group: front_left_leg
+    pose: backward
+  - group: rear_left_leg
+    pose: rl_forward
+  - group: front_right_leg
+    pose: forward
+  - group: rear_right_leg
+    pose: rr_forward
